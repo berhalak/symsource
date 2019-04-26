@@ -1,0 +1,27 @@
+{
+	"name": "symsource",
+	"version": "1.0.0",
+	"description": "symsource - symlinks shared code",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/berhalak/symsource.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bin": {
+		"symsource": "./bin/global.js"
+	},
+	"preferGlobal": true,
+	"bugs": {
+		"url": "https://github.com/berhalak/symsource/issues"
+	},
+	"homepage": "https://github.com/berhalak/symsource#readme",
+	"dependencies": {
+		"symlink-dir": "^3.0.2"
+	}
+}
